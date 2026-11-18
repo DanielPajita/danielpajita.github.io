@@ -2,6 +2,14 @@
 ---
 ---
 
+<div align="center">
+  <img src="foto_perfil.jpg"
+       alt="Fotografía de perfil"
+       width="180"
+       style="border-radius: 50%;">
+</div>
+
+
 # Presentación
 
 Soy economista y estudiante de maestría en Ciencia de Datos, con experiencia en análisis económico, investigación aplicada y evaluación de políticas públicas.
