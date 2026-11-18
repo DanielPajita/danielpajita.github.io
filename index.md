@@ -23,8 +23,8 @@ Análisis de las transformaciones de la población universitaria peruana entre 1
 
 [Ver repositorio](https://github.com/DanielPajita/educacion-universitaria-peru)
 
-## Repositorios
+## Perfiles profesionales
 
-Mis proyectos y códigos están disponibles en GitHub.
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DanielPajita)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/)
 
-[Explorar mis proyectos](https://github.com/DanielPajita)
