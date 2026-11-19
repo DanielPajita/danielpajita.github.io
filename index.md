@@ -52,25 +52,21 @@
 </div>
 
 
-<div style="display: flex; align-items: center; gap: 12px; margin: 15px 0 25px 0;">
+<div style="display: flex; align-items: center; gap: 12px; margin: 15px 0 25px 0; flex-wrap: wrap;">
 
-  <img src="https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/codex.svg"
-       alt="Codex de OpenAI"
-       title="Codex"
-       width="35"
-       height="35"
+  <img src="https://cdn.simpleicons.org/openai/412991"
+       alt="OpenAI"
+       title="OpenAI"
+       width="34"
+       height="34"
        style="flex-shrink: 0;">
 
   <p style="margin: 0;">
     <strong>Apoyo de inteligencia artificial:</strong>
-    Utilizo Codex de OpenAI para facilitar el desarrollo,
-    revisión y depuración de código, manteniendo la supervisión
-    de los procedimientos y su aplicación a los objetivos
-    de cada investigación.
+    Empleo herramientas de OpenAI para apoyar el desarrollo y la revisión de código en mis proyectos de investigación.
   </p>
 
 </div>
-
 
 
 ## Proyectos de investigación
