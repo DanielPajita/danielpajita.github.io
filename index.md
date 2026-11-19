@@ -1,3 +1,4 @@
+
 ---
 ---
 
@@ -26,6 +27,30 @@
 - Educación y mercado laboral.
 - Investigación histórica.
 
+## Herramientas de trabajo
+
+<div style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap; margin: 15px 0 25px 0;">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+       alt="Python"
+       title="Python"
+       width="45"
+       height="45">
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg"
+       alt="RStudio"
+       title="RStudio"
+       width="45"
+       height="45">
+
+  <img src="https://www.svgrepo.com/show/374098/stata.svg"
+       alt="Stata"
+       title="Stata"
+       width="45"
+       height="45">
+
+</div>
+
 ## Proyectos de investigación
 
 ### Educación universitaria en el Perú
@@ -34,24 +59,7 @@ Análisis de las transformaciones de la población universitaria peruana entre 1
 
 [Ver repositorio](https://github.com/DanielPajita/educacion-universitaria-peru)
 
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 15px; flex-wrap: wrap; margin-top: 25px;">
-
-  <h2 style="margin: 0;">Perfiles profesionales</h2>
-
-  <div style="display: flex; align-items: center; gap: 12px;">
-
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-         alt="Python" title="Python" width="30" height="30">
-
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg"
-         alt="R" title="R" width="30" height="30">
-
-    <img src="https://www.svgrepo.com/show/374098/stata.svg"
-         alt="Stata" title="Stata" width="35" height="35">
-
-  </div>
-
-</div>
+## Perfiles profesionales
 
 <p>
   <a href="https://github.com/DanielPajita">
