@@ -71,7 +71,7 @@
 
   <div style="flex: 1; min-width: 0;">
     <strong>Apoyo de inteligencia artificial:</strong>
-    Utilizo Codex de OpenAI para desarrollar y revisar código, y NotebookLM de Google para consultar documentos extensos de historia, normativa y políticas públicas. Ambas herramientas apoyan la revisión de fuentes, manteniendo bajo mi criterio el análisis y la interpretación.
+    Utilizo Codex de OpenAI para desarrollar y revisar código, y NotebookLM de Google para consultar documentos extensos de historia, normativa y políticas públicas.
   </div>
 
 </div>
