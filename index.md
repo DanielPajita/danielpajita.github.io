@@ -1,10 +1,9 @@
-
 ---
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 25px; flex-wrap: wrap; margin: 25px 0;">
 
-  <img src="foto_perfil.jpg"
+  <img src="imagenes/foto_perfil.jpg"
        alt="Fotografía de perfil"
        width="150"
        height="150"
@@ -31,19 +30,19 @@
 
 <div style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap; margin: 15px 0 25px 0;">
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+  <img src="imagenes/python.svg"
        alt="Python"
        title="Python"
        width="45"
        height="45">
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg"
+  <img src="imagenes/rstudio.svg"
        alt="RStudio"
        title="RStudio"
        width="45"
        height="45">
 
-  <img src="https://www.svgrepo.com/show/374098/stata.svg"
+  <img src="imagenes/stata.svg"
        alt="Stata"
        title="Stata"
        width="45"
@@ -51,23 +50,18 @@
 
 </div>
 
-
-<div style="display: flex; align-items: center; gap: 12px; margin: 15px 0 25px 0; flex-wrap: wrap;">
-
-  <img src="https://cdn.simpleicons.org/openai/412991"
+<div style="display: flex; align-items: center; gap: 15px; margin: 15px 0 25px 0; flex-wrap: nowrap;">
+  <img src="imagenes/openai.svg"
        alt="OpenAI"
        title="OpenAI"
-       width="34"
-       height="34"
+       width="38"
+       height="38"
        style="flex-shrink: 0;">
-
-  <p style="margin: 0;">
+  <div style="flex: 1; min-width: 0;">
     <strong>Apoyo de inteligencia artificial:</strong>
     Empleo herramientas de OpenAI para apoyar el desarrollo y la revisión de código en mis proyectos de investigación.
-  </p>
-
+  </div>
 </div>
-
 
 ## Proyectos de investigación
 
@@ -79,14 +73,24 @@ Análisis de las transformaciones de la población universitaria peruana entre 1
 
 ## Perfiles profesionales
 
-<p>
-  <a href="https://github.com/DanielPajita">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-         alt="GitHub">
+<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin: 15px 0;">
+
+  <a href="https://github.com/DanielPajita"
+     style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+    <img src="imagenes/github.svg"
+         alt="GitHub"
+         width="28"
+         height="28">
+    <span>GitHub</span>
   </a>
 
-  <a href="https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-         alt="LinkedIn">
+  <a href="https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/"
+     style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+    <img src="imagenes/linkedin.svg"
+         alt="LinkedIn"
+         width="28"
+         height="28">
+    <span>LinkedIn</span>
   </a>
-</p>
+
+</div>
