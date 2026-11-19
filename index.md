@@ -50,20 +50,17 @@
 
 </div>
 
-<div style="display: flex; align-items: center; gap: 12px; margin: 15px 0 25px 0; flex-wrap: wrap;">
-
+<div style="display: flex; align-items: center; gap: 15px; margin: 15px 0 25px 0; flex-wrap: nowrap;">
   <img src="imagenes/openai.svg"
        alt="OpenAI"
        title="OpenAI"
-       width="34"
-       height="34"
+       width="38"
+       height="38"
        style="flex-shrink: 0;">
-
-  <p style="margin: 0;">
+  <div style="flex: 1; min-width: 0;">
     <strong>Apoyo de inteligencia artificial:</strong>
     Empleo herramientas de OpenAI para apoyar el desarrollo y la revisión de código en mis proyectos de investigación.
-  </p>
-
+  </div>
 </div>
 
 ## Proyectos de investigación
