@@ -51,6 +51,13 @@
 
 </div>
 
+<p>
+  <strong>Apoyo en programación:</strong>
+  <a href="https://openai.com/codex/">Codex de OpenAI</a>,
+  utilizado para el desarrollo, revisión y documentación de código.
+</p>
+
+
 ## Proyectos de investigación
 
 ### Educación universitaria en el Perú
