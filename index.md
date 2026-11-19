@@ -51,11 +51,26 @@
 
 </div>
 
-<p>
-  <strong>Apoyo en programación:</strong>
-  <a href="https://openai.com/codex/">Codex de OpenAI</a>,
-  utilizado para el desarrollo, revisión y documentación de código.
-</p>
+
+<div style="display: flex; align-items: center; gap: 12px; margin: 15px 0 25px 0;">
+
+  <img src="https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/codex.svg"
+       alt="Codex de OpenAI"
+       title="Codex"
+       width="35"
+       height="35"
+       style="flex-shrink: 0;">
+
+  <p style="margin: 0;">
+    <strong>Apoyo de inteligencia artificial:</strong>
+    Utilizo Codex de OpenAI para facilitar el desarrollo,
+    revisión y depuración de código, manteniendo la supervisión
+    de los procedimientos y su aplicación a los objetivos
+    de cada investigación.
+  </p>
+
+</div>
+
 
 
 ## Proyectos de investigación
