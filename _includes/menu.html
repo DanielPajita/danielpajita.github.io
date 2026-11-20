@@ -1,3 +1,4 @@
+
 <style>
   /* Botón de cambio de tema */
   #theme-toggle {
@@ -74,27 +75,18 @@
 
 <nav style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; border-bottom: 1px solid #ddd; padding: 12px 0; margin-bottom: 25px;">
 
+  <!-- Navegación principal -->
   <div style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap;">
+
     <a href="{{ '/' | relative_url }}">Mi perfil</a>
+
     <a href="{{ '/cv/' | relative_url }}">CV</a>
+
     <a href="{{ '/publicaciones/' | relative_url }}">Publicaciones</a>
+
     <a href="{{ '/investigacion/' | relative_url }}">Investigación</a>
-  </div>
 
-  <div style="display: flex; align-items: center; gap: 15px;">
-
-    <a href="https://github.com/DanielPajita"
-       aria-label="GitHub" title="GitHub">
-      <img src="{{ '/imagenes/github.svg' | relative_url }}"
-           alt="GitHub" width="24" height="24">
-    </a>
-
-    <a href="https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/"
-       aria-label="LinkedIn" title="LinkedIn">
-      <img src="{{ '/imagenes/linkedin.svg' | relative_url }}"
-           alt="LinkedIn" width="24" height="24">
-    </a>
-
+    <!-- Cambio de tema -->
     <button id="theme-toggle"
             type="button"
             aria-label="Activar modo oscuro"
@@ -103,6 +95,30 @@
     </button>
 
   </div>
+
+  <!-- Perfiles profesionales -->
+  <div style="display: flex; align-items: center; gap: 15px;">
+
+    <a href="https://github.com/DanielPajita"
+       aria-label="GitHub"
+       title="GitHub">
+      <img src="{{ '/imagenes/github.svg' | relative_url }}"
+           alt="GitHub"
+           width="24"
+           height="24">
+    </a>
+
+    <a href="https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/"
+       aria-label="LinkedIn"
+       title="LinkedIn">
+      <img src="{{ '/imagenes/linkedin.svg' | relative_url }}"
+           alt="LinkedIn"
+           width="24"
+           height="24">
+    </a>
+
+  </div>
+
 </nav>
 
 <script>
@@ -127,8 +143,14 @@
       document.documentElement.getAttribute("data-theme") === "dark";
 
     boton.textContent = oscuro ? "☀" : "☾";
+
     boton.setAttribute(
       "aria-label",
+      oscuro ? "Activar modo claro" : "Activar modo oscuro"
+    );
+
+    boton.setAttribute(
+      "title",
       oscuro ? "Activar modo claro" : "Activar modo oscuro"
     );
   }
