@@ -1,10 +1,8 @@
+
 ---
 ---
 
 {% include menu.html %}
-
-<div style="display: flex; align-items: flex-start; gap: 25px; flex-wrap: wrap; margin: 25px 0;">
-
 
 <div style="display: flex; align-items: flex-start; gap: 25px; flex-wrap: wrap; margin: 25px 0;">
 
