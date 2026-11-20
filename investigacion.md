@@ -1,4 +1,3 @@
-
 ---
 title: "Investigación"
 permalink: /investigacion/
