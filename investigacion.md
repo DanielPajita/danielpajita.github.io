@@ -51,9 +51,10 @@ permalink: /investigacion/
     <h2 style="margin-top: 0;">Guerrillas y montoneras en la independencia del Perú</h2>
 
     <p>
-      Exploración histórica sobre la participación de guerrillas y montoneras
-      en la independencia del Perú (1813–1824), a partir de fuentes documentales
-      y del análisis de sus condiciones económicas, sociales y políticas.
+      Exploración histórica sobre la participación de guerrillas y
+      montoneras en la independencia del Perú (1813–1824), a partir
+      de fuentes documentales y del análisis de sus condiciones
+      económicas, sociales y políticas.
     </p>
 
     <p>
