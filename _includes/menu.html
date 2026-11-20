@@ -1,23 +1,41 @@
-<nav style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap; border-bottom: 1px solid #ddd; padding: 12px 0; margin-bottom: 25px;">
+<nav style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; border-bottom: 1px solid #ddd; padding: 12px 0; margin-bottom: 25px;">
 
-  <a href="{{ '/' | relative_url }}"
-     style="text-decoration: none; font-weight: 600;">
-    Mi perfil
-  </a>
+  <div style="display: flex; align-items: center; gap: 25px; flex-wrap: wrap;">
+    <a href="{{ '/' | relative_url }}" style="text-decoration: none; font-weight: 600;">
+      Mi perfil
+    </a>
 
-  <a href="{{ '/cv/' | relative_url }}"
-     style="text-decoration: none; font-weight: 600;">
-    CV
-  </a>
+    <a href="{{ '/cv/' | relative_url }}" style="text-decoration: none; font-weight: 600;">
+      CV
+    </a>
 
-  <a href="{{ '/publicaciones/' | relative_url }}"
-     style="text-decoration: none; font-weight: 600;">
-    Publicaciones
-  </a>
+    <a href="{{ '/publicaciones/' | relative_url }}" style="text-decoration: none; font-weight: 600;">
+      Publicaciones
+    </a>
 
-  <a href="{{ '/investigacion/' | relative_url }}"
-     style="text-decoration: none; font-weight: 600;">
-    Investigación
-  </a>
+    <a href="{{ '/investigacion/' | relative_url }}" style="text-decoration: none; font-weight: 600;">
+      Investigación
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+    <a href="https://github.com/DanielPajita"
+       style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+      <img src="{{ '/imagenes/github.svg' | relative_url }}"
+           alt="GitHub"
+           width="24"
+           height="24">
+      <span>GitHub</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/"
+       style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none;">
+      <img src="{{ '/imagenes/linkedin.svg' | relative_url }}"
+           alt="LinkedIn"
+           width="24"
+           height="24">
+      <span>LinkedIn</span>
+    </a>
+  </div>
 
 </nav>

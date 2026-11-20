@@ -87,27 +87,3 @@
 Análisis de las transformaciones de la población universitaria peruana entre 1996 y 2024, utilizando los censos universitarios de 1996 y 2010 y los registros administrativos del portal TUNI.
 
 [Ver repositorio](https://github.com/DanielPajita/educacion-universitaria-peru)
-
-## Perfiles profesionales
-
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin: 15px 0;">
-
-  <a href="https://github.com/DanielPajita"
-     style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
-    <img src="imagenes/github.svg"
-         alt="GitHub"
-         width="28"
-         height="28">
-    <span>GitHub</span>
-  </a>
-
-  <a href="https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/"
-     style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
-    <img src="imagenes/linkedin.svg"
-         alt="LinkedIn"
-         width="28"
-         height="28">
-    <span>LinkedIn</span>
-  </a>
-
-</div>
