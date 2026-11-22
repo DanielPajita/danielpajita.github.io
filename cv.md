@@ -1,4 +1,3 @@
-
 ---
 title: "Currículum vitae"
 permalink: /cv/
