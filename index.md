@@ -14,7 +14,7 @@
   <div style="flex: 1; min-width: 260px;">
     <h1 style="margin-top: 0;">Presentación</h1>
 
-    <p>Soy economista y estudiante de maestría en Ciencia de Datos, con experiencia en análisis económico, investigación aplicada y evaluación de políticas públicas.</p>
+    <p>Soy economista y estudiante de maestría en Ciencia de Datos. Además de mi actividad profesional, me interesa desarrollar investigaciones por iniciativa propia, explorando preguntas a partir de datos y fuentes documentales.</p>
 
     <p>En esta página comparto mis proyectos de investigación, análisis de datos y documentación de métodos cuantitativos, así como estudios sobre historia.</p>
   </div>
