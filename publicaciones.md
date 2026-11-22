@@ -72,10 +72,10 @@ Publicaciones académicas e institucionales en las que he contribuido mediante e
 - **Políticas de protección social y laboral en el Perú. Una espiral de buenas intenciones, malos resultados y peores respuestas** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers17-OK.pdf)  
   **Contribución:** apoyo en la investigación.
 
-- **Políticas de protección social y laboral en la República Dominicana** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers18-OK.pdf)
+- **Políticas de protección social y laboral en la República Dominicana** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers18-OK.pdf)  
   **Contribución:** apoyo en el procesamiento estadístico.
 
-- **Políticas de protección social y laboral en Ecuador** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers19_e.pdf)
+- **Políticas de protección social y laboral en Ecuador** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers19_e.pdf)  
   **Contribución:** apoyo en el procesamiento estadístico.
 
 ### Organización Internacional del Trabajo (OIT)
