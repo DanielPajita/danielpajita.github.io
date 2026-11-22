@@ -16,7 +16,7 @@
 
     <p>Soy economista y estudiante de maestría en Ciencia de Datos. Además de mi actividad profesional, me interesa desarrollar investigaciones por iniciativa propia, explorando preguntas a partir de datos y fuentes documentales.</p>
 
-    <p>En esta página comparto mis proyectos de investigación, análisis de datos y documentación de métodos cuantitativos, así como estudios sobre historia.</p>
+    <p>En esta página comparto investigaciones en desarrollo, análisis estadísticos y recursos metodológicos, así como exploraciones sobre historia.</p>
   </div>
 
 </div>
