@@ -1,0 +1,248 @@
+\documentclass[11pt,a4paper]{article}
+
+% ==================================================
+% IDIOMA Y TIPOGRAFÍA
+% ==================================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{microtype}
+
+% ==================================================
+% DISEÑO DE PÁGINA
+% ==================================================
+
+\usepackage[left=1.7cm,right=1.7cm,top=1.5cm,bottom=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\pagestyle{empty}
+
+% ==================================================
+% COMANDOS PARA MANTENER UN FORMATO UNIFORME
+% ==================================================
+
+\newcommand{\seccion}[1]{%
+  \vspace{8pt}
+  \begin{center}\textbf{#1}\end{center}
+  \vspace{-5pt}\hrule\vspace{7pt}
+}
+
+\newcommand{\cargo}[4]{%
+  \textbf{#1}\hfill #2\\
+  \textbf{#3}\hfill \textit{#4}\par\vspace{2pt}
+}
+
+\newenvironment{funciones}{%
+  \begin{itemize}[
+    leftmargin=1.1em,
+    itemsep=1pt,
+    topsep=2pt,
+    parsep=0pt
+  ]
+}{\end{itemize}\vspace{3pt}}
+
+% ==================================================
+% INICIO DEL DOCUMENTO
+% ==================================================
+
+\begin{document}
+
+% ==================================================
+% DATOS PERSONALES Y CONTACTO
+% ==================================================
+
+\begin{center}
+
+  {\Large\textbf{Daniel Leandro Pajita Dominguez}}\\[4pt]
+
+  Lima, Perú \textbullet\
+  \href{mailto:danielleandro.pd@gmail.com}
+  {danielleandro.pd@gmail.com}\\[3pt]
+
+  \href{https://danielpajita.github.io/}{Página personal}
+  \textbullet\
+  \href{https://github.com/DanielPajita}{GitHub}
+  \textbullet\
+  \href{https://www.linkedin.com/in/daniel-leandro-pajita-dominguez-93657a265/}{LinkedIn}\\[4pt]
+
+  \hrulefill
+
+\end{center}
+
+% ==================================================
+% EDUCACIÓN
+% ==================================================
+
+\seccion{Educación}
+
+\textbf{Pontificia Universidad Católica de Chile (UC)}
+\hfill Chile\\
+Maestría en Ciencia de Datos (en curso)
+\hfill 2025--2027\\[5pt]
+
+\textbf{Universidad Nacional del Callao (UNAC)}
+\hfill Perú\\
+Bachiller en Economía
+\hfill 2015
+
+% ==================================================
+% EXPERIENCIA PROFESIONAL
+% ==================================================
+
+\seccion{Experiencia profesional}
+
+% PRODUCE
+
+\cargo
+  {Ministerio de la Producción (PRODUCE)}
+  {Lima, Perú}
+  {Consultor económico}
+  {Oct. 2024 -- actualmente}
+
+\begin{funciones}
+
+  \item Análisis económico y evaluación de instrumentos de apoyo a empresas; procesamiento de registros administrativos y construcción de indicadores.
+
+  \item Elaboración de informes técnicos para el seguimiento y la evaluación de intervenciones públicas.
+
+\end{funciones}
+
+% SUNEDU
+
+\cargo
+  {Superintendencia Nacional de Educación Superior Universitaria (SUNEDU)}
+  {Lima, Perú}
+  {Analista de datos}
+  {Oct. 2020 -- Jul. 2024}
+
+\begin{funciones}
+
+  \item Elaboración de estudios, reportes estadísticos y boletines sobre el sistema universitario peruano.
+
+  \item Procesamiento de registros administrativos reportados mediante TUNI y análisis de matrícula e inserción laboral.
+
+\end{funciones}
+
+% GRADE
+
+\cargo
+  {Grupo de Análisis para el Desarrollo (GRADE)}
+  {Lima, Perú}
+  {Asistente de investigación}
+  {Mar. 2020 -- Ago. 2020}
+
+\begin{funciones}
+
+  \item Procesamiento de encuestas de hogares y empleo para estudios de desarrollo humano y políticas laborales durante la pandemia de COVID-19.
+
+\end{funciones}
+
+% MTPE
+
+\cargo
+  {Ministerio de Trabajo y Promoción del Empleo (MTPE)}
+  {Lima, Perú}
+  {Analista de mercado de trabajo}
+  {Oct. 2017 -- Feb. 2020}
+
+\begin{funciones}
+
+  \item Elaboración de informes nacionales sobre empleo, juventud y demanda laboral; análisis econométrico y asistencia técnica.
+
+  \item Aplicación de modelos de duración para estudiar cambios en la remuneración mínima y el empleo formal.
+
+\end{funciones}
+
+% ARELLANO MARKETING
+
+\cargo
+  {Arellano Marketing}
+  {Lima, Perú}
+  {Analista de macrodata}
+  {Jul. 2016 -- Sep. 2017}
+
+\begin{funciones}
+
+  \item Análisis de información económica y sociodemográfica de fuentes secundarias; tratamiento de bases de datos y revisión de metodologías cuantitativas.
+
+\end{funciones}
+
+% ==================================================
+% COMPETENCIAS TÉCNICAS
+% ==================================================
+
+\seccion{Competencias técnicas}
+
+\textbf{Programación y software:}
+Stata, Python, R, SQL y Git/GitHub.\\
+
+\textbf{Métodos:}
+econometría aplicada, evaluación de impacto, análisis de encuestas, modelos de duración y aprendizaje automático.
+
+% Añadir el apartado de idiomas cuando se defina
+% el nivel de dominio correspondiente.
+
+% ==================================================
+% PUBLICACIONES Y TRABAJOS
+% ==================================================
+
+\seccion{Publicaciones y trabajos}
+
+\begin{itemize}[
+  leftmargin=1.1em,
+  itemsep=3pt,
+  topsep=0pt
+]
+
+  \item \textbf{Pajita Dominguez, D.} y Baldeón Arrunátegui, A. (2017).
+  ``Sistema de demanda QUAIDS para bebidas no alcohólicas en hogares pobres y no pobres del Perú, 2012--2016''.
+  \textit{Horizonte Económico}, núm. 6.
+
+  \item Huarancca Bellido, M. y \textbf{Pajita Dominguez, D.} (2017).
+  ``Determinantes del embarazo y maternidad en los adolescentes del Perú''.
+  \textit{Horizonte Económico}, núm. 5, pp. 113--126.
+
+  \item Malo Serrano, M., Castillo, N. y \textbf{Pajita, D.} (2017).
+  ``La obesidad en el mundo''.
+  \textit{Anales de la Facultad de Medicina}, 78(2), pp. 67--72.
+
+\end{itemize}
+
+\vspace{3pt}
+
+\href{https://danielpajita.github.io/publicaciones/}
+{\underline{Consultar listado completo de publicaciones, informes y colaboraciones.}}
+
+% ==================================================
+% FORMACIÓN COMPLEMENTARIA
+% ==================================================
+
+\seccion{Formación complementaria}
+
+\begin{itemize}[
+  leftmargin=1.1em,
+  itemsep=1pt,
+  topsep=0pt
+]
+
+  \item Evaluación de Impacto de Programas de Desarrollo, GRADE (60 horas).
+
+  \item Diploma en Econometría, Grupo Iddea (96 horas).
+
+  \item Econometría Intermedia, Grupo Lambda (64 horas).
+
+  \item Manejo de Bases de Datos y Econometría Aplicada con RStudio, Económica (25 horas).
+
+  \item Stata para Economistas, Grupo Lambda (24 horas).
+
+\end{itemize}
+
+% ==================================================
+% FIN DEL DOCUMENTO
+% ==================================================
+
+\end{document}
