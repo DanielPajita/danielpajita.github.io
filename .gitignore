@@ -1,0 +1,16 @@
+﻿# Archivos auxiliares de LaTeX
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# CV generado automaticamente
+/documentos/cv/CV_Daniel_Pajita.pdf
+
+# Archivos generados por Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
