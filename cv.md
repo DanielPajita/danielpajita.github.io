@@ -309,29 +309,4 @@ permalink: /cv/
 
   </div>
 
-  <!-- Visualización opcional del CV -->
-  <div class="cv-preview">
-
-    <details>
-
-      <summary>Ver currículum completo</summary>
-
-      <iframe
-        src="{{ '/documentos/cv/CV_Daniel_Pajita.pdf' | relative_url }}"
-        title="Currículum vitae en PDF"
-        loading="lazy">
-      </iframe>
-
-      <p>
-        <a href="{{ '/documentos/cv/CV_Daniel_Pajita.pdf' | relative_url }}"
-           target="_blank"
-           rel="noopener noreferrer">
-          Abrir PDF en una pestaña nueva
-        </a>
-      </p>
-
-    </details>
-
-  </div>
-
 </section>
