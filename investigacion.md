@@ -7,6 +7,8 @@ permalink: /investigacion/
 
 # Investigaciones en desarrollo
 
+Aquí comparto investigaciones que desarrollo por interés propio, para explorar distintos temas y preguntas, sin que necesariamente estén orientadas a una publicación académica.
+
 <div style="display: flex; align-items: flex-start; gap: 25px; flex-wrap: wrap; margin: 25px 0;">
 
   <img src="{{ '/imagenes/Educación universitaria en el Perú.jfif' | relative_url }}"
