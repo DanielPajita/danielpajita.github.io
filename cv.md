@@ -248,12 +248,6 @@ permalink: /cv/
         económicos y sociales.
       </p>
 
-      <p>
-        Actualmente curso una maestría en Ciencia de Datos,
-        complementando mi formación económica con métodos
-        estadísticos y técnicas de aprendizaje automático.
-      </p>
-
       <!-- Descarga directa del PDF -->
       <a class="cv-download"
          href="{{ '/documentos/cv/CV_Daniel_Pajita.pdf' | relative_url }}"
