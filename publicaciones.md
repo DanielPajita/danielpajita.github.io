@@ -69,8 +69,6 @@ Publicaciones académicas e institucionales en las que he contribuido mediante e
 
 ### Programa de las Naciones Unidas para el Desarrollo (PNUD)
 
-Documentos de antecedentes del Informe Regional sobre Desarrollo Humano 2021 de América Latina y el Caribe, elaborados en colaboración con investigadores del Grupo de Análisis para el Desarrollo (GRADE).
-
 - **Políticas de protección social y laboral en el Perú. Una espiral de buenas intenciones, malos resultados y peores respuestas** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers17-OK.pdf)  
   **Contribución:** apoyo en la investigación.
 
