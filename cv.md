@@ -16,6 +16,11 @@ permalink: /cv/
     --cv-muted: #57606a;
     --cv-button: #17344b;
     --cv-button-text: #ffffff;
+
+    /* Heredar la tipografía del tema principal */
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
   }
 
   /* Compatibilidad con modo oscuro */
@@ -32,24 +37,21 @@ permalink: /cv/
      ================================================== */
 
   .cv-page .cv-header {
-    margin: 35px 0 45px;
+    margin: 0 0 35px;
   }
 
-  .cv-page .cv-header h1 {
-    font-size: 2em;
-    font-weight: 600;
-    letter-spacing: normal;
-    line-height: 1.25;
-    margin: 0 0 15px;
-    padding-bottom: 0.3em;
-    border-bottom: 1px solid var(--cv-border);
-  }
+  /*
+     El título h1 utiliza el estilo original de
+     GitHub Pages, igual que las otras secciones.
+     No se modifica font-size, font-weight,
+     font-family ni letter-spacing.
+  */
 
   .cv-page .cv-subtitle {
     color: var(--cv-muted);
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 15px 0 0;
   }
 
   /* ==================================================
@@ -82,6 +84,7 @@ permalink: /cv/
   }
 
   .cv-page .cv-card h2 {
+    font-family: inherit;
     font-size: 23px;
     line-height: 1.35;
     margin: 0 0 18px;
@@ -89,7 +92,9 @@ permalink: /cv/
   }
 
   .cv-page .cv-card p {
-    line-height: 1.7;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
     margin: 0 0 16px;
   }
 
@@ -112,6 +117,7 @@ permalink: /cv/
   }
 
   .cv-page .cv-education h3 {
+    font-family: inherit;
     font-size: 17px;
     margin: 0 0 6px;
     border: none;
@@ -119,7 +125,7 @@ permalink: /cv/
 
   .cv-page .cv-education p {
     color: var(--cv-muted);
-    font-size: 14px;
+    font-size: inherit;
     margin: 0;
   }
 
@@ -134,6 +140,8 @@ permalink: /cv/
     gap: 10px;
     background: var(--cv-button);
     color: var(--cv-button-text) !important;
+    font-family: inherit;
+    font-size: inherit;
     font-weight: 600;
     text-decoration: none;
     border-radius: 28px;
@@ -174,6 +182,7 @@ permalink: /cv/
 
   .cv-page .cv-preview summary {
     cursor: pointer;
+    font-family: inherit;
     font-weight: 600;
     padding: 10px 0;
   }
@@ -205,7 +214,7 @@ permalink: /cv/
     }
 
     .cv-page .cv-header {
-      margin: 25px 0 30px;
+      margin-bottom: 25px;
     }
   }
 </style>
