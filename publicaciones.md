@@ -6,89 +6,90 @@ permalink: /publicaciones/
 {% include menu.html %}
 
 <style>
-  .entidad-header {
+  .pub-entity-list {
+    margin-top: 20px;
+  }
+
+  .pub-entity {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 18px;
-    flex-wrap: wrap;
-    margin: 28px 0 14px 0;
-    padding-bottom: 8px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 22px 0;
     border-bottom: 1px solid #d8dee4;
   }
 
-  html[data-theme="dark"] .entidad-header {
-    border-bottom: 1px solid #30363d;
+  .pub-entity:first-child {
+    border-top: 1px solid #d8dee4;
   }
 
-  .entidad-header h3 {
-    margin: 0;
-    border: none;
+  .pub-entity-text {
     flex: 1;
-    min-width: 240px;
+    min-width: 0;
   }
 
-  .entidad-logo {
-    display: inline-block;
+  .pub-entity-text h3 {
+    margin: 0 0 12px 0;
+    border: none;
+  }
+
+  .pub-entity-text ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .pub-entity-text li {
+    margin-bottom: 10px;
+    line-height: 1.65;
+  }
+
+  .pub-entity-logo {
+    width: 170px;
+    min-width: 170px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .pub-entity-logo img {
+    max-width: 150px;
+    max-height: 56px;
     width: auto;
     height: auto;
     object-fit: contain;
-    flex-shrink: 0;
+    display: block;
   }
 
-  /* Ajustes por institución */
-  .logo-produce {
-    max-height: 54px;
-    max-width: 260px;
+  html[data-theme="dark"] .pub-entity {
+    border-bottom: 1px solid #30363d;
   }
 
-  .logo-mtpe {
-    max-height: 54px;
-    max-width: 300px;
+  html[data-theme="dark"] .pub-entity:first-child {
+    border-top: 1px solid #30363d;
   }
 
-  .logo-osinergmin {
-    max-height: 48px;
-    max-width: 220px;
-  }
-
-  .logo-pnud {
-    max-height: 58px;
-    max-width: 120px;
-  }
-
-  .logo-oit {
-    max-height: 58px;
-    max-width: 220px;
-  }
-
-  @media (max-width: 700px) {
-    .entidad-header {
+  @media (max-width: 760px) {
+    .pub-entity {
+      flex-direction: column-reverse;
       align-items: flex-start;
     }
 
-    .entidad-header h3 {
-      min-width: 100%;
+    .pub-entity-logo {
+      width: 100%;
+      min-width: 0;
+      justify-content: flex-start;
     }
 
-    .entidad-logo {
-      margin-top: 4px;
-    }
-
-    .logo-produce,
-    .logo-mtpe,
-    .logo-osinergmin,
-    .logo-pnud,
-    .logo-oit {
-      max-width: 220px;
-      max-height: 50px;
+    .pub-entity-logo img {
+      max-width: 140px;
+      max-height: 52px;
     }
   }
 </style>
 
 # Publicaciones
 
-Esta sección reúne artículos científicos, informes y reportes institucionales, así como otras colaboraciones en las que he participado durante mi trayectoria académica y profesional.
+Esta sección reúne artículos científicos, informes y reportes institucionales, y otras colaboraciones en las que he participado durante mi trayectoria académica y profesional.
 
 ## Artículos científicos
 
@@ -119,75 +120,86 @@ Malo Serrano, M., Castillo, N. & **Pajita, D.** (2017).
 *Anales de la Facultad de Medicina*, 78(2), pp. 67–72. Universidad Nacional Mayor de San Marcos, Lima, Perú.  
 [Consultar artículo (PDF)](https://www.redalyc.org/pdf/379/37952105011.pdf) · [DOI](https://doi.org/10.15381/anales.v78i2.13213)
 
----
-
 ## Informes y reportes institucionales
 
 Documentos técnicos en cuya elaboración he participado como parte de equipos de investigación, análisis económico y evaluación de políticas públicas durante mi trayectoria profesional.
 
-<div class="entidad-header">
-  <h3>Ministerio de la Producción (PRODUCE)</h3>
-  <img src="{{ '/imagenes/produce.png' | relative_url }}"
-       alt="Logo del Ministerio de la Producción"
-       class="entidad-logo logo-produce">
+<div class="pub-entity-list">
+
+  <div class="pub-entity">
+    <div class="pub-entity-text">
+      <h3>Ministerio de la Producción (PRODUCE)</h3>
+      <ul>
+        <li><strong>Evaluación de Resultados de la Estrategia PROCOMPITE 2019–2023</strong> (2026). <a href="https://www.producempresarial.pe/evaluacion-de-resultados-de-la-estrategia-procompite-2019-2023/">Consultar</a></li>
+        <li><strong>Evaluación de Resultados – Concurso MIPYME Digital 2020–2021</strong> (2026). <a href="https://www.producempresarial.pe/evaluacion-de-resultados-concurso-mipyme-digital-2020-2021/">Consultar</a></li>
+      </ul>
+    </div>
+    <div class="pub-entity-logo">
+      <img src="{{ '/imagenes/produce.png' | relative_url }}" alt="PRODUCE">
+    </div>
+  </div>
+
+  <div class="pub-entity">
+    <div class="pub-entity-text">
+      <h3>Ministerio de Trabajo y Promoción del Empleo (MTPE)</h3>
+      <ul>
+        <li><strong>Informe Anual del Empleo Juvenil en el Perú 2018</strong>. <a href="https://www.gob.pe/institucion/mtpe/informes-publicaciones/394337-informe-anual-del-empleo-juvenil-en-el-peru-2018">Consultar</a></li>
+        <li><strong>Informe Anual del Empleo 2018</strong>. <a href="https://www.gob.pe/institucion/mtpe/informes-publicaciones/353779-informe-anual-del-empleo-2018">Consultar</a></li>
+        <li><strong>Encuesta de Demanda Ocupacional 2018 – Informe Nacional</strong>. <a href="https://cdn.www.gob.pe/uploads/document/file/303305/EDO_2018_Nacional-vf.pdf">Consultar</a></li>
+        <li><strong>Informe Anual del Empleo del Adulto Mayor en el Perú 2017</strong>. <a href="https://www.gob.pe/institucion/mtpe/informes-publicaciones/266352-informe-anual-del-empleo-del-adulto-mayor-en-el-peru-2017">Consultar</a></li>
+        <li><strong>La Mujer en el Mercado Laboral Peruano – Informe Anual 2016</strong>. <a href="https://www.gob.pe/institucion/mtpe/informes-publicaciones/21767-informe-de-la-mujer-en-el-mercado-laboral">Consultar</a></li>
+      </ul>
+    </div>
+    <div class="pub-entity-logo">
+      <img src="{{ '/imagenes/mtpe.png' | relative_url }}" alt="MTPE">
+    </div>
+  </div>
+
+  <div class="pub-entity">
+    <div class="pub-entity-text">
+      <h3>Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin)</h3>
+      <ul>
+        <li><strong>Reporte Semestral de Monitoreo del Mercado de Gas Natural N.º 6 – Segundo semestre de 2014</strong>. <a href="https://www.gob.pe/institucion/osinergmin/informes-publicaciones/1298025-rsmm-gas-natural-n-6-segundo-semestre-de-2014">Consultar</a></li>
+      </ul>
+    </div>
+    <div class="pub-entity-logo">
+      <img src="{{ '/imagenes/osinergmin.jpg' | relative_url }}" alt="Osinergmin">
+    </div>
+  </div>
+
 </div>
-
-- **Evaluación de Resultados de la Estrategia PROCOMPITE 2019–2023** (2026). [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-de-la-estrategia-procompite-2019-2023/)
-- **Evaluación de Resultados – Concurso MIPYME Digital 2020–2021** (2026). [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-concurso-mipyme-digital-2020-2021/)
-
-<div class="entidad-header">
-  <h3>Ministerio de Trabajo y Promoción del Empleo (MTPE)</h3>
-  <img src="{{ '/imagenes/mtpe.png' | relative_url }}"
-       alt="Logo del Ministerio de Trabajo y Promoción del Empleo"
-       class="entidad-logo logo-mtpe">
-</div>
-
-- **Informe Anual del Empleo Juvenil en el Perú 2018**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/394337-informe-anual-del-empleo-juvenil-en-el-peru-2018)
-- **Informe Anual del Empleo 2018**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/353779-informe-anual-del-empleo-2018)
-- **Encuesta de Demanda Ocupacional 2018 – Informe Nacional**. [Consultar](https://cdn.www.gob.pe/uploads/document/file/303305/EDO_2018_Nacional-vf.pdf)
-- **Informe Anual del Empleo del Adulto Mayor en el Perú 2017**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/266352-informe-anual-del-empleo-del-adulto-mayor-en-el-peru-2017)
-- **La Mujer en el Mercado Laboral Peruano – Informe Anual 2016**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/21767-informe-de-la-mujer-en-el-mercado-laboral)
-
-<div class="entidad-header">
-  <h3>Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin)</h3>
-  <img src="{{ '/imagenes/osinergmin.png' | relative_url }}"
-       alt="Logo de Osinergmin"
-       class="entidad-logo logo-osinergmin">
-</div>
-
-- **Reporte Semestral de Monitoreo del Mercado de Gas Natural N.º 6 – Segundo semestre de 2014**. [Consultar](https://www.gob.pe/institucion/osinergmin/informes-publicaciones/1298025-rsmm-gas-natural-n-6-segundo-semestre-de-2014)
-
----
 
 ## Colaboraciones y contribuciones
 
-Publicaciones académicas e institucionales en las que he contribuido mediante apoyo a la investigación, procesamiento de información, análisis estadístico y estimaciones econométricas, con participación consignada en los reconocimientos de los documentos.
+Publicaciones académicas e institucionales en las que he contribuido mediante el apoyo a la investigación, procesamiento de información, análisis estadístico y estimaciones econométricas, con participación consignada en los reconocimientos de los documentos.
 
-<div class="entidad-header">
-  <h3>Programa de las Naciones Unidas para el Desarrollo (PNUD)</h3>
-  <img src="{{ '/imagenes/PNUD.png' | relative_url }}"
-       alt="Logo del Programa de las Naciones Unidas para el Desarrollo"
-       class="entidad-logo logo-pnud">
+<div class="pub-entity-list">
+
+  <div class="pub-entity">
+    <div class="pub-entity-text">
+      <h3>Programa de las Naciones Unidas para el Desarrollo (PNUD)</h3>
+      <ul>
+        <li><strong>Políticas de protección social y laboral en el Perú. Una espiral de buenas intenciones, malos resultados y peores respuestas</strong> (2021). <a href="https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers17-OK.pdf">Consultar</a><br><strong>Contribución:</strong> apoyo en la investigación.</li>
+        <li><strong>Políticas de protección social y laboral en la República Dominicana</strong> (2021). <a href="https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers18-OK.pdf">Consultar</a><br><strong>Contribución:</strong> apoyo en el procesamiento estadístico.</li>
+        <li><strong>Políticas de protección social y laboral en Ecuador</strong> (2021). <a href="https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers19_e.pdf">Consultar</a><br><strong>Contribución:</strong> apoyo en el procesamiento estadístico.</li>
+      </ul>
+    </div>
+    <div class="pub-entity-logo">
+      <img src="{{ '/imagenes/PNUD.png' | relative_url }}" alt="PNUD">
+    </div>
+  </div>
+
+  <div class="pub-entity">
+    <div class="pub-entity-text">
+      <h3>Organización Internacional del Trabajo (OIT)</h3>
+      <ul>
+        <li><strong>Panorama Laboral 2019. América Latina y el Caribe</strong> (2020). <a href="https://www.ilo.org/es/publications/panorama-laboral-2019-america-latina-y-el-caribe">Consultar</a><br><strong>Contribución:</strong> consultoría en estadísticas y estimaciones.</li>
+        <li><strong>Mujeres en el mundo del trabajo: Retos pendientes hacia una efectiva equidad en América Latina y el Caribe (Panorama Laboral Temático, N.º 5)</strong> (2019). <a href="https://www.ilo.org/es/publications/mujeres-en-el-mundo-del-trabajo-retos-pendientes-hacia-una-efectiva-equidad">Consultar</a><br><strong>Contribución:</strong> manejo computacional y econométrico de las encuestas de hogares.</li>
+      </ul>
+    </div>
+    <div class="pub-entity-logo">
+      <img src="{{ '/imagenes/OIT.png' | relative_url }}" alt="OIT">
+    </div>
+  </div>
+
 </div>
-
-- **Políticas de protección social y laboral en el Perú. Una espiral de buenas intenciones, malos resultados y peores respuestas** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers17-OK.pdf)  
-  **Contribución:** apoyo en la investigación.
-
-- **Políticas de protección social y laboral en la República Dominicana** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers18-OK.pdf)  
-  **Contribución:** apoyo en el procesamiento estadístico.
-
-- **Políticas de protección social y laboral en Ecuador** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers19_e.pdf)  
-  **Contribución:** apoyo en el procesamiento estadístico.
-
-<div class="entidad-header">
-  <h3>Organización Internacional del Trabajo (OIT)</h3>
-  <img src="{{ '/imagenes/OIT.png' | relative_url }}"
-       alt="Logo de la Organización Internacional del Trabajo"
-       class="entidad-logo logo-oit">
-</div>
-
-- **Panorama Laboral 2019. América Latina y el Caribe** (2020). [Consultar](https://www.ilo.org/es/publications/panorama-laboral-2019-america-latina-y-el-caribe)  
-  **Contribución:** consultoría en estadísticas y estimaciones.
-
-- **Mujeres en el mundo del trabajo: Retos pendientes hacia una efectiva equidad en América Latina y el Caribe (Panorama Laboral Temático, N.º 5)** (2019). [Consultar](https://www.ilo.org/es/publications/mujeres-en-el-mundo-del-trabajo-retos-pendientes-hacia-una-efectiva-equidad)  
-  **Contribución:** manejo computacional y econométrico de las encuestas de hogares.
