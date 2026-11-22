@@ -21,12 +21,42 @@
 
 </div>
 
-## Áreas de interés
+<h2>Áreas de interés</h2>
 
-- Economía aplicada y políticas públicas.
-- Ciencia de datos y métodos cuantitativos.
-- Educación y mercado laboral.
-- Investigación histórica.
+<div style="display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 15px;
+            margin: 20px 0 30px 0;">
+
+  <div style="border: 1px solid #8b949e;
+              border-radius: 10px;
+              padding: 18px;">
+    <div style="font-size: 30px; margin-bottom: 10px;">📈</div>
+    <strong>Economía aplicada y políticas públicas</strong>
+  </div>
+
+  <div style="border: 1px solid #8b949e;
+              border-radius: 10px;
+              padding: 18px;">
+    <div style="font-size: 30px; margin-bottom: 10px;">💻</div>
+    <strong>Ciencia de datos y métodos cuantitativos</strong>
+  </div>
+
+  <div style="border: 1px solid #8b949e;
+              border-radius: 10px;
+              padding: 18px;">
+    <div style="font-size: 30px; margin-bottom: 10px;">🎓</div>
+    <strong>Educación, mercado laboral y salud</strong>
+  </div>
+
+  <div style="border: 1px solid #8b949e;
+              border-radius: 10px;
+              padding: 18px;">
+    <div style="font-size: 30px; margin-bottom: 10px;">📜</div>
+    <strong>Investigación histórica</strong>
+  </div>
+
+</div>
 
 ## Herramientas de trabajo
 
