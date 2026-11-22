@@ -68,7 +68,23 @@ Documentos técnicos en cuya elaboración he participado como parte de equipos d
 
 ## Colaboraciones y contribuciones
 
-Publicaciones institucionales en las que he contribuido mediante el procesamiento de información, análisis estadístico y estimaciones econométricas, con participación consignada en la sección de reconocimientos.
+Publicaciones académicas e institucionales en las que he contribuido mediante el apoyo a la investigación, procesamiento de información, análisis estadístico y estimaciones econométricas, con participación consignada en los reconocimientos de los documentos.
+
+### Programa de las Naciones Unidas para el Desarrollo (PNUD)
+
+Documentos de antecedentes del Informe Regional sobre Desarrollo Humano 2021 de América Latina y el Caribe, elaborados en colaboración con investigadores del Grupo de Análisis para el Desarrollo (GRADE).
+
+- **Políticas de protección social y laboral en el Perú. Una espiral de buenas intenciones, malos resultados y peores respuestas** (2021). · [PNUD](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers17-OK.pdf) · [GRADE](https://www.grade.org.pe/wp-content/uploads/GRADEdi115.pdf)  
+  Hugo Ñopo. *UNDP LAC Working Paper*, N.º 17.  
+  **Contribución:** apoyo en la investigación.
+
+- **Políticas de protección social y laboral en la República Dominicana** (2021). · [PNUD](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers18-OK.pdf) · [GRADE](https://www.grade.org.pe/wp-content/uploads/GRADEdi117.pdf)  
+  Hugo Ñopo y Sócrates Barinas. *UNDP LAC Working Paper*, N.º 18.  
+  **Contribución:** apoyo en el procesamiento estadístico.
+
+- **Políticas de protección social y laboral en Ecuador** (2021). · [PNUD](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers19_e.pdf) · [GRADE](https://www.grade.org.pe/wp-content/uploads/GRADEdi116.pdf)  
+  Hugo Ñopo y Alejandra Peña. *UNDP LAC Working Paper*, N.º 19.  
+  **Contribución:** apoyo en el procesamiento estadístico.
 
 ### Organización Internacional del Trabajo (OIT)
 
