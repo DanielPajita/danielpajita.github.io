@@ -36,12 +36,13 @@ permalink: /cv/
   }
 
   .cv-page .cv-header h1 {
-    font-size: clamp(36px, 5vw, 60px);
-    font-weight: 700;
-    letter-spacing: -1.5px;
-    line-height: 1.15;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.25;
     margin: 0 0 15px;
-    border: none;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid var(--cv-border);
   }
 
   .cv-page .cv-subtitle {
@@ -276,7 +277,7 @@ permalink: /cv/
         <h3>Maestría en Ciencia de Datos</h3>
 
         <p>
-          Pontificia Universidad Católica de Chile
+          Pontificia Universidad Católica de Chile (UC)
         </p>
 
         <p>En curso</p>
@@ -288,7 +289,7 @@ permalink: /cv/
         <h3>Bachiller en Economía</h3>
 
         <p>
-          Universidad Nacional del Callao
+          Universidad Nacional del Callao (UNAC)
         </p>
 
         <p>2015</p>
