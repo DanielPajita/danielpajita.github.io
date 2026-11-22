@@ -46,7 +46,7 @@ Documentos técnicos en cuya elaboración he participado como parte de equipos d
 
 ### Ministerio de la Producción (PRODUCE)
 
-- **Evaluación de Resultados de la Estrategia PROCOMPITE 2019–2023**. [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-de-la-estrategia-procompite-2019-2023/)
+- **Evaluación de Resultados de la Estrategia PROCOMPITE 2019–2023** (2026). [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-de-la-estrategia-procompite-2019-2023/)
 - **Evaluación de Resultados – Concurso MIPYME Digital 2020–2021** (2026). [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-concurso-mipyme-digital-2020-2021/)
 
 ### Ministerio de Trabajo y Promoción del Empleo (MTPE)
@@ -80,7 +80,7 @@ Publicaciones académicas e institucionales en las que he contribuido mediante e
 
 ### Organización Internacional del Trabajo (OIT)
 
-- **Panorama Laboral 2019. América Latina y el Caribe**. [Consultar](https://www.ilo.org/es/publications/panorama-laboral-2019-america-latina-y-el-caribe)  
+- **Panorama Laboral 2019. América Latina y el Caribe** (2020). [Consultar](https://www.ilo.org/es/publications/panorama-laboral-2019-america-latina-y-el-caribe)  
   **Contribución:** consultoría en estadísticas y estimaciones.
 
 - **Mujeres en el mundo del trabajo: Retos pendientes hacia una efectiva equidad en América Latina y el Caribe (Panorama Laboral Temático, N.º 5.)** (2019). [Consultar](https://www.ilo.org/es/publications/mujeres-en-el-mundo-del-trabajo-retos-pendientes-hacia-una-efectiva-equidad)    
