@@ -43,8 +43,6 @@ permalink: /cv/
   /*
      El título h1 utiliza el estilo original de
      GitHub Pages, igual que las otras secciones.
-     No se modifica font-size, font-weight,
-     font-family ni letter-spacing.
   */
 
   .cv-page .cv-subtitle {
@@ -107,10 +105,6 @@ permalink: /cv/
     border-bottom: 1px solid var(--cv-border);
   }
 
-  .cv-page .cv-education:first-of-type {
-    padding-top: 0;
-  }
-
   .cv-page .cv-education:last-child {
     border-bottom: none;
     padding-bottom: 0;
@@ -171,32 +165,6 @@ permalink: /cv/
   }
 
   /* ==================================================
-     VISUALIZACIÓN DEL PDF
-     ================================================== */
-
-  .cv-page .cv-preview {
-    margin-top: 30px;
-    border-top: 1px solid var(--cv-border);
-    padding-top: 20px;
-  }
-
-  .cv-page .cv-preview summary {
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 600;
-    padding: 10px 0;
-  }
-
-  .cv-page .cv-preview iframe {
-    width: 100%;
-    height: 950px;
-    border: 1px solid var(--cv-border);
-    border-radius: 8px;
-    margin-top: 15px;
-    background: white;
-  }
-
-  /* ==================================================
      PANTALLAS PEQUEÑAS
      ================================================== */
 
@@ -207,10 +175,6 @@ permalink: /cv/
 
     .cv-page .cv-card {
       padding: 22px;
-    }
-
-    .cv-page .cv-preview iframe {
-      height: 650px;
     }
 
     .cv-page .cv-header {
