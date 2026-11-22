@@ -6,31 +6,89 @@ permalink: /publicaciones/
 {% include menu.html %}
 
 <style>
-  /* Logotipos de instituciones */
-  .logo-entidad {
+  .entidad-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin: 28px 0 14px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d8dee4;
+  }
+
+  html[data-theme="dark"] .entidad-header {
+    border-bottom: 1px solid #30363d;
+  }
+
+  .entidad-header h3 {
+    margin: 0;
+    border: none;
+    flex: 1;
+    min-width: 240px;
+  }
+
+  .entidad-logo {
     display: inline-block;
-    max-height: 38px;
-    max-width: 90px;
     width: auto;
     height: auto;
     object-fit: contain;
-    vertical-align: middle;
-    margin-right: 12px;
+    flex-shrink: 0;
   }
 
-  /* Ajuste para pantallas pequeñas */
-  @media (max-width: 600px) {
-    .logo-entidad {
-      max-height: 30px;
-      max-width: 70px;
-      margin-right: 8px;
+  /* Ajustes por institución */
+  .logo-produce {
+    max-height: 54px;
+    max-width: 260px;
+  }
+
+  .logo-mtpe {
+    max-height: 54px;
+    max-width: 300px;
+  }
+
+  .logo-osinergmin {
+    max-height: 48px;
+    max-width: 220px;
+  }
+
+  .logo-pnud {
+    max-height: 58px;
+    max-width: 120px;
+  }
+
+  .logo-oit {
+    max-height: 58px;
+    max-width: 220px;
+  }
+
+  @media (max-width: 700px) {
+    .entidad-header {
+      align-items: flex-start;
+    }
+
+    .entidad-header h3 {
+      min-width: 100%;
+    }
+
+    .entidad-logo {
+      margin-top: 4px;
+    }
+
+    .logo-produce,
+    .logo-mtpe,
+    .logo-osinergmin,
+    .logo-pnud,
+    .logo-oit {
+      max-width: 220px;
+      max-height: 50px;
     }
   }
 </style>
 
 # Publicaciones
 
-Esta sección reúne artículos científicos, informes y reportes institucionales, y otras colaboraciones en las que he participado durante mi trayectoria académica y profesional.
+Esta sección reúne artículos científicos, informes y reportes institucionales, así como otras colaboraciones en las que he participado durante mi trayectoria académica y profesional.
 
 ## Artículos científicos
 
@@ -40,8 +98,7 @@ Esta sección reúne artículos científicos, informes y reportes institucionale
 
 **Pajita Dominguez, D.** & Baldeón Arrunátegui, A. (2017).
 
-*Revista Horizonte Económico*, N.º 6. Instituto de Investigación de la Facultad de Ciencias Económicas de la Universidad Nacional del Callao, Callao, Perú.
-
+*Revista Horizonte Económico*, N.º 6. Instituto de Investigación de la Facultad de Ciencias Económicas de la Universidad Nacional del Callao, Callao, Perú.  
 [Consultar publicación](https://fce.unac.edu.pe/unidad-de-investigacion/paper-de-investigadores/)
 
 ---
@@ -50,8 +107,7 @@ Esta sección reúne artículos científicos, informes y reportes institucionale
 
 Huarancca Bellido, M. & **Pajita Dominguez, D.** (2017).
 
-*Revista Horizonte Económico*, N.º 5, pp. 113–126. Instituto de Investigación de la Facultad de Ciencias Económicas de la Universidad Nacional del Callao, Callao, Perú.
-
+*Revista Horizonte Económico*, N.º 5, pp. 113–126. Instituto de Investigación de la Facultad de Ciencias Económicas de la Universidad Nacional del Callao, Callao, Perú.  
 [Consultar artículo (PDF)](https://drive.google.com/file/d/1rJe4pLNm_YngnIUXJ-1BMEzpHSc69IsL/view)
 
 ---
@@ -60,8 +116,7 @@ Huarancca Bellido, M. & **Pajita Dominguez, D.** (2017).
 
 Malo Serrano, M., Castillo, N. & **Pajita, D.** (2017).
 
-*Anales de la Facultad de Medicina*, 78(2), pp. 67–72. Universidad Nacional Mayor de San Marcos, Lima, Perú.
-
+*Anales de la Facultad de Medicina*, 78(2), pp. 67–72. Universidad Nacional Mayor de San Marcos, Lima, Perú.  
 [Consultar artículo (PDF)](https://www.redalyc.org/pdf/379/37952105011.pdf) · [DOI](https://doi.org/10.15381/anales.v78i2.13213)
 
 ---
@@ -70,12 +125,22 @@ Malo Serrano, M., Castillo, N. & **Pajita, D.** (2017).
 
 Documentos técnicos en cuya elaboración he participado como parte de equipos de investigación, análisis económico y evaluación de políticas públicas durante mi trayectoria profesional.
 
-### <img src="{{ '/imagenes/produce.png' | relative_url }}" class="logo-entidad" alt="" title="PRODUCE"> Ministerio de la Producción (PRODUCE)
+<div class="entidad-header">
+  <h3>Ministerio de la Producción (PRODUCE)</h3>
+  <img src="{{ '/imagenes/produce.png' | relative_url }}"
+       alt="Logo del Ministerio de la Producción"
+       class="entidad-logo logo-produce">
+</div>
 
 - **Evaluación de Resultados de la Estrategia PROCOMPITE 2019–2023** (2026). [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-de-la-estrategia-procompite-2019-2023/)
 - **Evaluación de Resultados – Concurso MIPYME Digital 2020–2021** (2026). [Consultar](https://www.producempresarial.pe/evaluacion-de-resultados-concurso-mipyme-digital-2020-2021/)
 
-### <img src="{{ '/imagenes/mtpe.png' | relative_url }}" class="logo-entidad" alt="" title="MTPE"> Ministerio de Trabajo y Promoción del Empleo (MTPE)
+<div class="entidad-header">
+  <h3>Ministerio de Trabajo y Promoción del Empleo (MTPE)</h3>
+  <img src="{{ '/imagenes/mtpe.png' | relative_url }}"
+       alt="Logo del Ministerio de Trabajo y Promoción del Empleo"
+       class="entidad-logo logo-mtpe">
+</div>
 
 - **Informe Anual del Empleo Juvenil en el Perú 2018**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/394337-informe-anual-del-empleo-juvenil-en-el-peru-2018)
 - **Informe Anual del Empleo 2018**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/353779-informe-anual-del-empleo-2018)
@@ -83,7 +148,12 @@ Documentos técnicos en cuya elaboración he participado como parte de equipos d
 - **Informe Anual del Empleo del Adulto Mayor en el Perú 2017**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/266352-informe-anual-del-empleo-del-adulto-mayor-en-el-peru-2017)
 - **La Mujer en el Mercado Laboral Peruano – Informe Anual 2016**. [Consultar](https://www.gob.pe/institucion/mtpe/informes-publicaciones/21767-informe-de-la-mujer-en-el-mercado-laboral)
 
-### <img src="{{ '/imagenes/osinergmin.png' | relative_url }}" class="logo-entidad" alt="" title="Osinergmin"> Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin)
+<div class="entidad-header">
+  <h3>Organismo Supervisor de la Inversión en Energía y Minería (Osinergmin)</h3>
+  <img src="{{ '/imagenes/osinergmin.png' | relative_url }}"
+       alt="Logo de Osinergmin"
+       class="entidad-logo logo-osinergmin">
+</div>
 
 - **Reporte Semestral de Monitoreo del Mercado de Gas Natural N.º 6 – Segundo semestre de 2014**. [Consultar](https://www.gob.pe/institucion/osinergmin/informes-publicaciones/1298025-rsmm-gas-natural-n-6-segundo-semestre-de-2014)
 
@@ -91,9 +161,14 @@ Documentos técnicos en cuya elaboración he participado como parte de equipos d
 
 ## Colaboraciones y contribuciones
 
-Publicaciones académicas e institucionales en las que he contribuido mediante el apoyo a la investigación, procesamiento de información, análisis estadístico y estimaciones econométricas, con participación consignada en los reconocimientos de los documentos.
+Publicaciones académicas e institucionales en las que he contribuido mediante apoyo a la investigación, procesamiento de información, análisis estadístico y estimaciones econométricas, con participación consignada en los reconocimientos de los documentos.
 
-### <img src="{{ '/imagenes/PNUD.png' | relative_url }}" class="logo-entidad" alt="" title="PNUD"> Programa de las Naciones Unidas para el Desarrollo (PNUD)
+<div class="entidad-header">
+  <h3>Programa de las Naciones Unidas para el Desarrollo (PNUD)</h3>
+  <img src="{{ '/imagenes/PNUD.png' | relative_url }}"
+       alt="Logo del Programa de las Naciones Unidas para el Desarrollo"
+       class="entidad-logo logo-pnud">
+</div>
 
 - **Políticas de protección social y laboral en el Perú. Una espiral de buenas intenciones, malos resultados y peores respuestas** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers17-OK.pdf)  
   **Contribución:** apoyo en la investigación.
@@ -104,7 +179,12 @@ Publicaciones académicas e institucionales en las que he contribuido mediante e
 - **Políticas de protección social y laboral en Ecuador** (2021). [Consultar](https://files.acquia.undp.org/public/migration/latinamerica/undp-rblac-PNUD_bckPapers19_e.pdf)  
   **Contribución:** apoyo en el procesamiento estadístico.
 
-### <img src="{{ '/imagenes/OIT.png' | relative_url }}" class="logo-entidad" alt="" title="OIT"> Organización Internacional del Trabajo (OIT)
+<div class="entidad-header">
+  <h3>Organización Internacional del Trabajo (OIT)</h3>
+  <img src="{{ '/imagenes/OIT.png' | relative_url }}"
+       alt="Logo de la Organización Internacional del Trabajo"
+       class="entidad-logo logo-oit">
+</div>
 
 - **Panorama Laboral 2019. América Latina y el Caribe** (2020). [Consultar](https://www.ilo.org/es/publications/panorama-laboral-2019-america-latina-y-el-caribe)  
   **Contribución:** consultoría en estadísticas y estimaciones.
