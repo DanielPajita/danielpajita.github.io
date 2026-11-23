@@ -55,11 +55,6 @@ permalink: /publicaciones/
     margin-top: 6px;
   }
 
-  .pub-sidebar .pub-nav-sub {
-    padding-left: 24px;
-    font-size: 13px;
-  }
-
   .pub-content {
     min-width: 0;
   }
@@ -237,28 +232,8 @@ permalink: /publicaciones/
       Informes y reportes institucionales
     </a>
 
-    <a href="#produce" class="pub-nav-sub">
-      PRODUCE
-    </a>
-
-    <a href="#mtpe" class="pub-nav-sub">
-      MTPE
-    </a>
-
-    <a href="#osinergmin" class="pub-nav-sub">
-      Osinergmin
-    </a>
-
     <a href="#colaboraciones" class="pub-nav-main">
       Colaboraciones y contribuciones
-    </a>
-
-    <a href="#pnud" class="pub-nav-sub">
-      PNUD
-    </a>
-
-    <a href="#oit" class="pub-nav-sub">
-      OIT
     </a>
 
   </nav>
