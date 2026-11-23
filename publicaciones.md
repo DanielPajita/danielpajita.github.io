@@ -93,8 +93,6 @@ Esta sección reúne artículos científicos, informes y reportes institucionale
 
 ## Artículos científicos
 
-### 2017
-
 **Sistema de demanda QUAIDS para bebidas no alcohólicas en hogares pobres y no pobres del Perú, 2012–2016**
 
 **Pajita Dominguez, D.** & Baldeón Arrunátegui, A. (2017).
